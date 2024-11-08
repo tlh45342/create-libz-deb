@@ -13,10 +13,6 @@ quetion every man file, etc.
 
 This is going to be imperfect.
 
-The thinking is that many of the maintainers for the repositories
-are sometimes going to have to change the code for thier distro.
-For example:  OpenSSH is developed for NetBSD.
-
 The "control" file here is generic as all get out
 
 ## Purpose
