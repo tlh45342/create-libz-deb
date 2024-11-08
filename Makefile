@@ -83,5 +83,6 @@ buildsource:
 	cd ~/source ; \
 	tar -xzf zlib-1.3.1.tar.gz ; \
 	cd zlib-1.3.1 ; \
+	./configure ; \
 	make ; \
 	make install
