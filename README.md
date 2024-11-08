@@ -32,7 +32,7 @@ compile / install of libz 1.3.1
 ## Getting this
 
 ```bash
-git clone https://github.com/tlh45342/create-lib-deb.git
+git clone https://github.com/tlh45342/create-libz-deb.git
 ```
 
 Please note that the default I used had the bash file in /usr/local/bin/bash
