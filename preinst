@@ -1,0 +1,4 @@
+rm -f /usr/local/include/zlib.h /usr/local/include/zconf.h
+rm -f /usr/local/lib/libz.a
+rm -f /usr/local/share/man/man3/zlib.3
+rm -f /usr/local/lib/pkgconfig/zlib
