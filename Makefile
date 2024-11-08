@@ -75,12 +75,13 @@ clean:
 	rm -rf md5sums
 
 pullsource:
+	rm -rf ~/source/zlib-1.3.1.tar.gz ; \
 	wget -P ~/source wget https://zlib.net/zlib-1.3.1.tar.gz ; \
 	exit 0
 	
 buildsource:
-	cd ~/source
-	tar -xzf zlib-1.3.1.tar.gz
-	cd zlib-1.3.1
-	make
+	cd ~/source ; \
+	tar -xzf zlib-1.3.1.tar.gz ; \
+	cd zlib-1.3.1 ; \
+	make ; \
 	make install
