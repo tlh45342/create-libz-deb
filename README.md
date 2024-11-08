@@ -48,4 +48,4 @@ Yes I am probably being a litte caustious in some of my Makefile for constructin
 
 ## Assumptions
 
-This does assume you have basic development tools install such as gcc; make and the like.
+This does assume you have basic development tools installed such as gcc; make and the like.
