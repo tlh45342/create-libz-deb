@@ -40,7 +40,7 @@ make
 
 Because I am ~~lazy~~ efficient I have set the default all target to execute "pullsource" "buildsource" ; "buildeb"
 In this way it should attempt to go get the source; break it out; execute configure and then make it.
-In this way the binaries can be configured that can then begin the next step of construbcting the deb.
+In this way the binaries can be constructed.  Having accomplished that we can begin the next step of construbcting the DEB.
 
 ## OVERZELOUS MUCH
 
