@@ -45,3 +45,7 @@ In this way the binaries can be configured that can then begin the next step of 
 ## OVERZELOUS MUCH
 
 Yes I am probably being a litte caustious in some of my Makefile for constructing the DEB directory structure.  So be it.
+
+## Assumptions
+
+This does assume you have basic development tools install such as gcc; make and the like.
