@@ -35,6 +35,14 @@ compile / install of libz 1.3.1
 git clone https://github.com/tlh45342/create-libz-deb.git
 ```
 
+The next steps should consist only of
+
+```bash
+cd create-libz-deb
+make
+```
+
+
 ## Additional note
 
 Because I am ~~lazy~~ efficient I have set the default all target to execute "pullsource" "buildsource" ; "buildeb"
