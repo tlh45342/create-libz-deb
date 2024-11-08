@@ -20,6 +20,8 @@ The "control" file here is generic as all get out
 This is being used to learn more about creating a deb file for a larger scale project.  Plus sometimes its awkward to find a deb file for new versions of projects.
 I do not ever recall having a source file contain the code to build the deb or rpm alongside it.
 
+## This is designed for libz 1.3.1
+
 This script is designed to create a DEB file based on a fresh compile of libz 1.3.1
 
 ## Getting this
@@ -35,6 +37,9 @@ cd create-libz-deb
 make
 ```
 
+## OVERZELOUS MUCH
+
+Yes I am probably being a litte caustious in some of my Makefile for constructing the DEB directory structure.  So be it.
 
 ## Additional note
 
