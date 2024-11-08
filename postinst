@@ -1,0 +1,14 @@
+root@nodex:~/source/create-libz-deb# more postinst
+#! /bin/bash
+
+set -e
+
+if [ ! -f /bin/rbash ]; then
+cd /bin ; ln -s bash rbash
+fi
+
+if [ ! -f /usr/bin/rbash ]; then
+cd /usr/bin ; ln -s bash rbash
+fi
+
+exit 0
