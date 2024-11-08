@@ -75,8 +75,8 @@ clean:
 	rm -rf md5sums
 
 pullsource:
-	cd ~/source
-	wget wget https://zlib.net/zlib-1.3.1.tar.gz
+	wget -P ~/source wget https://zlib.net/zlib-1.3.1.tar.gz ; \
+	exit 0
 	
 buildsource:
 	cd ~/source
